@@ -1,19 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
+    
+    /* Website's title */
     <meta charset="utf-8">
     <title>Trang web Mèo Méo Meo Mèo Meo</title>
+    
     <style>
+      
+      /* Font imports */
       @import url(https://fonts.googleapis.com/css?family=Amatic SC)
       @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,latin-ext,greek-ext,greek,vietnamese,cyrillic,cyrillic-ext);
       @import url(https://fonts.cdnfonts.com/css/be-vietnam-pro);
       @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+      
+      /* Font imports */
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: #333;
+        color: white;
+        font-size: 20px;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      nav li {
+        margin: 0 10px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+      }
+      
+      /* Headings */
       h1 {
         font-family: 'Amatic SC', sans-serif;
         font-size: 100px;
         font-weight: 100px;
         text-align: center;
       }
+      
+      /* Paragraph */
       p {
         font-size: 28px;
       }
@@ -27,9 +59,18 @@
         font-family: 'Roboto Condensed', sans-serif;
       }
     </style>
+    
   </head>
+  
   <body>
     <center><img src="https://i.imgur.com/8LjVf4r.png" alt="Decorations" style="display: inline-block; height: 100px; margin-right: 20px; "><h1 style="display: inline-block;">MÈO MÉO MEO MÈO MEO!</h1><img src="https://i.imgur.com/yNxfRJF.png" alt="Decorations" style="display: inline-block; height: 100px; margin-left: 20px; "></center>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
     <hr size="2" color="black" style="width: 800px; ">
     <p class='font1'>Be Vietnam Pro - The quick brown fox jumps over the lazy dog.</p>
     <p class='font2'>Roboto Slab - The quick brown fox jumps over the lazy dog.</p>
