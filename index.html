@@ -53,6 +53,22 @@
           display: table;
           clear: both;
         }
+        
+        /* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
       /* Headings */
       h1 {
@@ -89,7 +105,7 @@
   </head>
   
   <body>
-    <center><img src="https://i.imgur.com/8LjVf4r.png" alt="Decorations" style="display: inline-block; height: 100px; margin-right: 40px; "><h1 style="display: inline-block;">MÈO MÉO MEO MÈO MEO</h1><img src="https://i.imgur.com/yNxfRJF.png" alt="Decorations" style="display: inline-block; height: 100px; margin-left: 40px; "></center>
+    <center><img src="https://i.imgur.com/8LjVf4r.png" alt="Decorations" style="display: inline-block; height: 100px; margin-right: 40px; "><h1 style="display: inline-block;">MÈO MÉO MEO MÈO MEO</h1><img src="https://i.imgur.com/yNxfRJF.png" alt="Decorations" style="display: inline-block; height: 100px; margin-left: 40px;"></center>
     <nav>
       <ul>
         <li><a href="#">Trang chủ</a></li>
@@ -100,8 +116,15 @@
 
     <div style="text-align: center;">
       <img src="https://i.imgur.com/2MOauFE.jpg" alt="Majestic cat!" style="width: 100%">
+      
     </div>
-    
+    <div class="container">
+  <img src="https://i.imgur.com/FRDibFg.jpg" alt="Another cat!" style="width:100%; margin-top:-4px">
+  <div class="text-block">
+    <p class='font1' style="font-size:20px;">Tin sốc: Idol Hoàng Miêu ăn vụng!</h1>
+    <p class='font1' style="font-size:10px;">Bạn gái của anh, Hường Mèo, hiện giờ đang rất buồn và đói bụng.</p>
+  </div>
+</div>
     <hr size="2" color="black" style="width: 800px; margin-top: 95px; ">
     <h2>Bạn có biết rằng?</h2>
     <center><p class='font1'>Cứ mỗi giây trôi qua, lại có thêm 100 con mèo trên toàn thế giới muốn được bạn nựng.</p></center>
